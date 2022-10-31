@@ -73,7 +73,6 @@ public class TooltipReference : MonoBehaviour
 
             // rotate text towards user
             textCanvas.transform.rotation = Quaternion.LookRotation(transform.position - userCamera.transform.position);
-            //textCanvas.transform.LookAt(userCamera.transform, Vector3.up);
         }
     }
 
